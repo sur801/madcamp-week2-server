@@ -21,7 +21,7 @@ var form = "<!DOCTYPE HTML><html><body>" +
 router.get('/', function (req, res){
   res.writeHead(200, {'Content-Type': 'text/html' });
   res.end(form);
-  console.log("이건가??");
+  console.log("Get");
 });
 
 // Include the node file module
